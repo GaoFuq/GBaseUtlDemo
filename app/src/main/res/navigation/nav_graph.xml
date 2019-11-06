@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.gfq.gg.Home"
+        android:label="fragment_Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_RVBindingRecycleView"
+            app:destination="@id/RVBindingRecycleView" />
+        <action
+            android:id="@+id/action_home_to_dropSelect"
+            app:destination="@id/dropSelect" />
+        <action
+            android:id="@+id/action_home_to_bottomNavTest"
+            app:destination="@id/bottomNavTest" />
+    </fragment>
+    <fragment
+        android:id="@+id/RVBindingRecycleView"
+        android:name="com.gfq.gg.RVBindingRecycleView"
+        android:label="fragment_rvbinding_recycle_view"
+        tools:layout="@layout/fragment_rvbinding_recycle_view" />
+    <fragment
+        android:id="@+id/dropSelect"
+        android:name="com.gfq.gg.DropSelect"
+        android:label="fragment_drop_select"
+        tools:layout="@layout/fragment_drop_select" />
+    <fragment
+        android:id="@+id/bottomNavTest"
+        android:name="com.gfq.gg.BottomNavTest"
+        android:label="fragment_bottom_nav_test"
+        tools:layout="@layout/fragment_bottom_nav_test" />
+</navigation>

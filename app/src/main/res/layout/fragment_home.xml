@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".Home">
+
+        <Button
+            android:id="@+id/btn_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地址选择器" />
+
+        <Button
+            android:id="@+id/recycleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="横向均分GridRecycleView" />
+
+        <Button
+            android:id="@+id/btn_status_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="状态栏" />
+
+
+
+        <Button
+            android:id="@+id/btn_write_text_2_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="写入文本到文件" />
+
+        <Button
+            android:id="@+id/btn_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截屏并保存" />
+
+
+        <Button
+            android:id="@+id/btn_bottom_dialog_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部圆角Dialog" />
+
+        <Button
+            android:id="@+id/btn_bottom_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部圆角日历" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择器" />
+
+        <Button
+            android:id="@+id/btn_round_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆角Dialog" />
+
+
+        <Button
+            android:id="@+id/btn_bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomNavTest" />
+
+
+
+    </LinearLayout>
+</layout>
